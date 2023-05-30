@@ -1,0 +1,401 @@
+{
+  "NetworkTables": {
+    "NetworkTables Settings": {
+      "mode": "Client (NT4)"
+    },
+    "Persistent Values": {
+      "open": false
+    },
+    "Plots": {
+      "Plot <0>": {
+        "plots": [
+          {
+            "height": 0,
+            "series": [
+              {
+                "color": [
+                  0.2980392277240753,
+                  0.44705885648727417,
+                  0.6901960968971252,
+                  1.0
+                ],
+                "id": "NT:/SmartDashboard/Elevator/Left Encoder"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "transitory": {
+      "LiveWindow": {
+        ".status": {
+          "open": true
+        }
+      },
+      "Shuffleboard": {
+        "Autonomous": {
+          "SendableChooser[0]": {
+            "open": true
+          },
+          "open": true
+        },
+        "Pilotage": {
+          "Commandes": {
+            "Scheduler": {
+              "open": true
+            }
+          },
+          "Odo": {
+            "open": true
+          },
+          "Prep": {
+            "open": true
+          },
+          "open": true
+        },
+        "open": true
+      },
+      "SmartDashboard": {
+        "ControllerCommand": {
+          "open": true
+        },
+        "DrivetrainSubsystem": {
+          "Claw": {
+            "open": true
+          },
+          "GamepiecePositioning": {
+            "open": true
+          },
+          "Scheduler": {
+            "open": true
+          }
+        },
+        "GamepiecePositioning": {
+          "open": true
+        },
+        "Pivot": {
+          "open": true
+        },
+        "Scheduler": {
+          "open": true
+        },
+        "open": true
+      },
+      "types": {
+        "/FMSInfo": "FMSInfo",
+        "/Shuffleboard/Autonomous/SendableChooser[0]": "String Chooser",
+        "/SmartDashboard/Claw": "Subsystem",
+        "/SmartDashboard/Elevator": "Subsystem",
+        "/SmartDashboard/Extensor": "Subsystem",
+        "/SmartDashboard/Field": "Field2d",
+        "/SmartDashboard/Pivot": "Subsystem",
+        "/SmartDashboard/Scheduler": "Scheduler"
+      }
+    },
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/Shuffleboard/Autonomous/SendableChooser[0]": "String Chooser",
+      "/Shuffleboard/Pilotage/Commandes/Scheduler": "Scheduler",
+      "/Shuffleboard/Pilotage/Odo/Reset": "Command",
+      "/Shuffleboard/Pilotage/Prep/Choix auto": "String Chooser",
+      "/Shuffleboard/Pilotage/Prep/Prep Cone": "Command",
+      "/SmartDashboard/Claw": "Subsystem",
+      "/SmartDashboard/DrivetrainSubsystem": "Subsystem",
+      "/SmartDashboard/Elevator": "Subsystem",
+      "/SmartDashboard/Extensor": "Subsystem",
+      "/SmartDashboard/Field": "Field2d",
+      "/SmartDashboard/Pivot": "Subsystem",
+      "/SmartDashboard/Prepare for cone": "Command",
+      "/SmartDashboard/Scheduler": "Scheduler"
+    },
+    "windows": {
+      "/SmartDashboard/Field": {
+        "Trajectory": {
+          "arrows": false,
+          "style": "Line"
+        },
+        "window": {
+          "visible": true
+        }
+      }
+    }
+  },
+  "NetworkTables Settings": {
+    "mode": "Client (NT4)"
+  },
+  "Plots": {
+    "Plot <0>": {
+      "plots": [
+        {
+          "axis": [
+            {
+              "autoFit": true
+            },
+            {
+              "autoFit": true
+            }
+          ],
+          "height": -20,
+          "series": [
+            {
+              "color": [
+                0.2980392277240753,
+                0.44705885648727417,
+                0.6901960968971252,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Swerve Controller/x actual m",
+              "name": "actueal x"
+            },
+            {
+              "color": [
+                0.8666667342185974,
+                0.5176470875740051,
+                0.32156863808631897,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Swerve Controller/x ref m",
+              "name": "ref x"
+            },
+            {
+              "color": [
+                0.3333333432674408,
+                0.658823549747467,
+                0.4078431725502014,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Swerve Controller/x error m",
+              "name": "err x",
+              "yAxis": 1
+            },
+            {
+              "color": [
+                0.7686275243759155,
+                0.30588236451148987,
+                0.32156863808631897,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Actual 2 x"
+            }
+          ],
+          "viewTime": 20.0,
+          "yaxis2": true
+        },
+        {
+          "axis": [
+            {
+              "autoFit": true
+            },
+            {
+              "autoFit": true
+            }
+          ],
+          "height": -20,
+          "series": [
+            {
+              "color": [
+                0.2980392277240753,
+                0.44705885648727417,
+                0.6901960968971252,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Swerve Controller/vx output ms",
+              "name": "vx output"
+            },
+            {
+              "color": [
+                0.8666667342185974,
+                0.5176470875740051,
+                0.32156863808631897,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Swerve Controller/vx ref ms",
+              "name": "vx ref"
+            },
+            {
+              "color": [
+                0.3333333432674408,
+                0.658823549747467,
+                0.4078431725502014,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Swerve Controller/vy output ms",
+              "name": "vy output",
+              "yAxis": 1
+            },
+            {
+              "color": [
+                0.7686275243759155,
+                0.30588236451148987,
+                0.32156863808631897,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Swerve Controller/vy ref ms",
+              "name": "vy ref",
+              "yAxis": 1
+            }
+          ],
+          "viewTime": 20.0,
+          "yaxis2": true
+        },
+        {
+          "axis": [
+            {
+              "autoFit": true
+            },
+            {
+              "autoFit": true
+            }
+          ],
+          "height": -20,
+          "series": [
+            {
+              "color": [
+                0.2980392277240753,
+                0.44705885648727417,
+                0.6901960968971252,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Swerve Controller/y actual m",
+              "name": "actual y"
+            },
+            {
+              "color": [
+                0.3333333432674408,
+                0.658823549747467,
+                0.4078431725502014,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Swerve Controller/y error m",
+              "name": "err y",
+              "yAxis": 1
+            },
+            {
+              "color": [
+                0.7686275243759155,
+                0.30588236451148987,
+                0.32156863808631897,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Actual 2 y"
+            },
+            {
+              "color": [
+                0.8666667342185974,
+                0.5176470875740051,
+                0.32156863808631897,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Swerve Controller/y ref m",
+              "name": "ref y"
+            }
+          ],
+          "viewTime": 20.0,
+          "yaxis2": true
+        },
+        {
+          "axis": [
+            {
+              "autoFit": true
+            }
+          ],
+          "height": -20,
+          "series": [
+            {
+              "color": [
+                0.2980392277240753,
+                0.44705885648727417,
+                0.6901960968971252,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Swerve Controller/theta actual deg",
+              "name": "theta actual"
+            },
+            {
+              "color": [
+                0.8666667342185974,
+                0.5176470875740051,
+                0.32156863808631897,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Swerve Controller/theta error def",
+              "name": "err theta"
+            }
+          ],
+          "viewTime": 20.0
+        }
+      ],
+      "window": {
+        "name": "Suivi trajectoire"
+      }
+    },
+    "Plot <1>": {
+      "plots": [
+        {
+          "axis": [
+            {
+              "autoFit": true
+            }
+          ],
+          "height": 249,
+          "series": [
+            {
+              "color": [
+                0.2980392277240753,
+                0.44705885648727417,
+                0.6901960968971252,
+                1.0
+              ],
+              "id": "NT:/Shuffleboard/Pilotage/Meca/Hauteur m"
+            },
+            {
+              "color": [
+                0.8666667342185974,
+                0.5176470875740051,
+                0.32156863808631897,
+                1.0
+              ],
+              "id": "NT:/Shuffleboard/Pilotage/Meca/Extension m"
+            },
+            {
+              "color": [
+                0.3333333432674408,
+                0.658823549747467,
+                0.4078431725502014,
+                1.0
+              ],
+              "id": "NT:/Shuffleboard/Pilotage/Meca/Angle d"
+            }
+          ],
+          "viewTime": 30.0
+        }
+      ],
+      "window": {
+        "visible": false
+      }
+    },
+    "Plot <2>": {
+      "plots": [
+        {
+          "axis": [
+            {
+              "autoFit": true
+            }
+          ],
+          "height": 338,
+          "series": [
+            {
+              "color": [
+                0.2980392277240753,
+                0.44705885648727417,
+                0.6901960968971252,
+                1.0
+              ],
+              "id": "NT:/Shuffleboard/Pilotage/Odo/vit ms"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
